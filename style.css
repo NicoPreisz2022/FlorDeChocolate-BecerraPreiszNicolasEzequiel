@@ -352,6 +352,14 @@ nav {
   transition: 0.5s;
 }
 
+.Button {
+  margin-right: 30px;
+  font-size: 25px;
+  color: #fff;
+  cursor: pointer;
+  display: none;
+}
+
 ul {
   display: block;
   list-style-type: none;
