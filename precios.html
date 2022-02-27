@@ -20,6 +20,16 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
+    <style>
+      .table-bordered {
+        text-align: center;
+        margin: 4rem;
+        padding: 0rem;
+        border: 5px solid rgb(117, 10, 10);
+        margin: 0rem;
+        padding: 0rem;
+      }
+    </style>
     <title>FLOR DE CHOCOLATE</title>
     <link
       rel="stylesheet"
@@ -53,68 +63,80 @@
       </nav>
     </header>
     <section id="SeccionIndex">
-      <table cellpadding="10" cellspacing="5">
+      <table
+        class="table table-bordered table-responsive"
+        cellpadding="10"
+        cellspacing="5"
+      >
         <h1>PRECIOS</h1>
-        <tr>
-          <th>PRODUCTOS</th>
-          <th>PRECIOS POR UNIDAD</th>
-          <th>
-            PRECIOS POR CANTIDAD (las cantidades dependen del producto elegido,
-            consultar)
-          </th>
-        </tr>
-        <tr>
-          <td>Trufas</td>
-          <td>- - - - - - - - - - - - - - - - - - - -</td>
-          <td>La docena, a $500</td>
-        </tr>
-        <tr>
-          <td>Tabletas Max</td>
-          <td>$300 la unidad</td>
-          <td>Consultar</td>
-        </tr>
-        <tr>
-          <td>Tabletas grandes de Chocolate</td>
-          <td>$220 la unidad</td>
-          <td>$200 la unidad (a partir de las 3 unidades, puede ser en mix)</td>
-        </tr>
-        <tr>
-          <td>Toblerones</td>
-          <td>$200 la unidad</td>
-          <td>$150 la unidad (a partir de las 3 unidades, puede ser en mix)</td>
-        </tr>
-        <tr>
-          <td>Bombones</td>
-          <td>- - - - - - - - - - - - - - - - - - - -</td>
-          <td>
-            La 1/2 docena, a $500 / La docena, a $900 (consultar por sabores
-            especiales, puede variar el $)
-          </td>
-        </tr>
-        <tr>
-          <td>Alfajores Artesanales</td>
-          <td>$150 la unidad</td>
-          <td>$600 la 1/2 docena (consultar gustos, puede variar el $)</td>
-        </tr>
-        <tr>
-          <td>Brownies</td>
-          <td>- - - - - - - - - - - - - - - - - - - -</td>
-          <td>
-            $600 la caja x 4 unidades del Clásico / $800 la caja x 4 unidades de
-            los Especiales
-          </td>
-        </tr>
-        <tr>
-          <td>Cajas Box</td>
-          <td>Consultar disponibilidad</td>
-          <td>Consultar disponibilidad</td>
-        </tr>
+        <thead>
+          <tr>
+            <th scope="col">PRODUCTOS</th>
+            <th scope="col">PRECIOS POR UNIDAD</th>
+            <th scope="col">
+              PRECIOS POR CANTIDAD (las cantidades dependen del producto
+              elegido, consultar)
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Trufas</td>
+            <td>--------------------</td>
+            <td>La docena, a $500</td>
+          </tr>
+          <tr>
+            <td>Tabletas Max</td>
+            <td>$300 la unidad</td>
+            <td>Consultar</td>
+          </tr>
+          <tr>
+            <td>Tabletas grandes de Chocolate</td>
+            <td>$220 la unidad</td>
+            <td>
+              $200 la unidad (a partir de las 3 unidades, puede ser en mix)
+            </td>
+          </tr>
+          <tr>
+            <td>Toblerones</td>
+            <td>$200 la unidad</td>
+            <td>
+              $150 la unidad (a partir de las 3 unidades, puede ser en mix)
+            </td>
+          </tr>
+          <tr>
+            <td>Bombones</td>
+            <td>--------------------</td>
+            <td>
+              La 1/2 docena, a $500 / La docena, a $900 (consultar por sabores
+              especiales, puede variar el $)
+            </td>
+          </tr>
+          <tr>
+            <td>Alfajores Artesanales</td>
+            <td>$150 la unidad</td>
+            <td>$600 la 1/2 docena (consultar gustos, puede variar el $)</td>
+          </tr>
+          <tr>
+            <td>Brownies</td>
+            <td>--------------------</td>
+            <td>
+              $600 la caja x 4 unidades del Clásico / $800 la caja x 4 unidades
+              de los Especiales
+            </td>
+          </tr>
+          <tr>
+            <td>Cajas Box</td>
+            <td>Consultar disponibilidad</td>
+            <td>Consultar disponibilidad</td>
+          </tr>
+        </tbody>
       </table>
     </section>
     <footer>
       <h3>NUESTRAS REDES</h3>
       <div class="Audio">
-        <audio width="5%" heght="5%" controls autoplay infinite>
+        <audio controls width="5%" heght="5%" controls autoplay infinite>
           <source
             src="Música/Robin_Schulz_-_Sugar_feat_Francesco_Yates_OFFICIAL_MUSIC_VIDEO[YoYo Screen].mp3"
             type="audio/mpeg"
